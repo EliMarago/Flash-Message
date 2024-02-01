@@ -1,0 +1,105 @@
+body{
+    background: rgb(128,236,165);
+    background: linear-gradient(90deg, rgba(128,236,165,0.671327906162465) 47%, rgba(247,125,125,0.5844931722689075) 50%);}
+
+
+*
+{
+    
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 40px;
+padding: 20px;
+}
+.card , .card_2
+{
+    display: flex;
+    justify-content: center;
+
+}
+.container_1
+{   
+    background: #68B984;
+    width: 320px;
+    height: 320px;
+    margin-bottom: 20px;
+    align-items: center;
+    border: rgb(255, 254, 252) solid 3px;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+.container_2
+{   
+    background: #D24545;
+    width: 320px;
+    height: 320px;
+    border: rgb(255, 254, 252) solid 3px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.text
+{
+    color: white;
+    font-size: 30px;
+}
+.bi
+{
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    top: 30px;
+  
+   
+}
+    .text_2
+{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+
+.bi-x-circle
+{
+    background-color: rgb(255, 247, 247);
+    border-radius: 5000px ;
+}
+
+button
+{
+display: flex;
+justify-content: center;
+align-items: center;
+border: none;
+border-radius: 20px 20px;
+height: 30px;
+width: 100px;
+margin-left: 100px;
+margin-top: 40px;
+
+}
+.button-go
+{
+    background: rgb(8, 143, 8);
+    border: solid white 2px;
+    color: white;
+}
+.button-go:hover
+{
+    background-color: rgb(47, 172, 47);
+}
+.button-try
+{
+    background: rgb(158, 14, 14);
+    border: solid white 2px;
+    color: white;
+}
+.button-try:hover
+{
+    background-color: rgb(234, 55, 55);
+}
